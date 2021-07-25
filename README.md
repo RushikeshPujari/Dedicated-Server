@@ -19,3 +19,15 @@ a computer (Client side) can invoke methods on an object present in another JVM
 (Server side). RMI creates a public remote server object that enables client and 
 server side communications through simple method calls on the server object
     
+Steps to run 
+
+1) first compile all files 
+     javac Addi.java
+     javac  AddC.java
+     javac Client.java
+     javac Server.java
+
+2) rmic AddC 
+3) rmiregistray &
+4) java Server
+5) java Client     
